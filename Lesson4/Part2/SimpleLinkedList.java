@@ -27,7 +27,9 @@ public class SimpleLinkedList {
     }
 
     public void addFirst(Object o){
-
+        Node node = new Node();
+        node.setO(o);
+        root=node;
     }
     public void addLast(Object o){
 
